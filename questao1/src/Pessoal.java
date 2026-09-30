@@ -7,7 +7,7 @@ public class Pessoal extends Emprestimo {
     
     public Pessoal(Double Valor, boolean identidade, boolean comprovanteRenda) {
         super(valor);
-        this.identidade = identidade;
+        this.identidade = identidade; 
         this.comprovanteRenda = comprovanteRenda;
     }
 
